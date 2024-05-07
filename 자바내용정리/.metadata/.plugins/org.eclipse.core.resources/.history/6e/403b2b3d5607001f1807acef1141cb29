@@ -1,0 +1,8 @@
+package com.kh.test.main.oop;
+
+public interface AnimalEat {
+	
+	public void eat(); 
+	// 인터페이스라서 내용은 인터페이스를 상속 받은 
+	// 클래스에서  구현하고 재사용 해줘야 한다. 
+}

@@ -1,0 +1,11 @@
+package com.kh.test.main.oop;
+
+// 동물 하나만 상속 implements
+public class Dog implements Animal {
+
+	@Override
+	public void makeSound() {
+		System.out.println("dd");
+	}
+
+}
