@@ -15,7 +15,7 @@ public class 역직렬화 {
 			//파일에서 객체를 역직렬화해서 읽어보기
 			Student 학생 = (Student)ois.readObject();
 			System.out.println("파일로부터 객체를 역직렬화했습니다.");
-			System.out.print("역직렬화된 학생 txt : " + 학생);
+			System.out.println("역직렬화된 학생 txt : " + 학생);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
