@@ -24,4 +24,14 @@ public class 오버로딩 {
 	
 	public void test(short a, boolean b) {}
 	public void test(byte b, boolean c) {}
+	
+	public String test(String a ,String b) { 
+		return "테스트";
+	}
+	public int test(short i, short s) {
+		return 0;
+	}
+	public int test(String a, String e, String r) {
+		return 0;
+	}
 }
